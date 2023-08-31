@@ -21,6 +21,19 @@ namespace Organization
             MyObj.speed = 1;
 
             MyObj.color = "red";
+            
+            string x = Console.ReadLine();
+
+            char[] x_array= x.ToArray();
+
+            x_array.SetValue(0, 1);
+
+            Console.WriteLine(x_array.Length);
+            Console.WriteLine(x_array);
+
+
+
+
         }
     }
 }
