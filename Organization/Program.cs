@@ -12,7 +12,7 @@ namespace Organization
         {
             Console.WriteLine("Hello World!");
 
-            int time = 10;
+            int time = 9;
             string result = (time < 18) ? "Good day." : "Good evening.";
             Console.WriteLine(result);
 
