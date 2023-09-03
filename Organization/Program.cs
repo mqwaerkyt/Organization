@@ -24,9 +24,9 @@ namespace Organization
             
             string x = Console.ReadLine();
 
-            char[] x_array= x.ToArray();
+            x = x.ToString();
 
-            x_array.SetValue(0, 1);
+            char[] x_array= x.ToArray();
 
             Console.WriteLine(x_array.Length);
             Console.WriteLine(x_array);
