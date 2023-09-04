@@ -29,7 +29,14 @@ namespace Organization
             char[] x_array= x.ToArray();
 
             Console.WriteLine(x_array.Length);
-            Console.WriteLine(x_array);
+            Console.WriteLine(x_array[1]);
+
+            string bazString = @"Here's some stuff
+on a new line! ""Wow!"", the masses cried";
+
+            Console.WriteLine(bazString);
+
+            Console.WriteLine(2+1/2);
 
 
 
