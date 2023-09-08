@@ -40,6 +40,25 @@ on a new line! ""Wow!"", the masses cried";
 
 
 
+            Rate_Law();
+        }
+        public static void Rate_Law() 
+        {
+            Console.WriteLine("h");
+            string a = Console.ReadLine();
+            string b = Console.ReadLine();
+
+            foreach(char i in a)
+            {
+                
+                if (i-'0' >= 0) 
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+            float f = -1/(2) ;
+
 
         }
     }
