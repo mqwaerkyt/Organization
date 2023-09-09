@@ -8,6 +8,9 @@ namespace Organization
 
         public int speed;
         public string color;
+
+        public List<int> lol = new List<int>(); 
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -47,11 +50,30 @@ on a new line! ""Wow!"", the masses cried";
             Console.WriteLine("h");
             string a = Console.ReadLine();
             string b = Console.ReadLine();
+            string b = Console.ReadLine();
 
-            foreach(char i in a)
+            foreach (char i in a)
             {
                 
                 if (i-'0' >= 0) 
+                {
+                    lol.Add(i - '0');
+                }
+            }
+
+            foreach (char i in b)
+            {
+
+                if (i - '0' >= 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+            foreach (char i in c)
+            {
+
+                if (i - '0' >= 0)
                 {
                     Console.WriteLine(i);
                 }
