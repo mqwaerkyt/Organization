@@ -78,8 +78,13 @@ namespace Organization
             }
          
 
-            lol_int.ForEach(p => Console.Write(p+","));
-            lol_char.ForEach(p => Console.Write(p + ","));
+            lol_int.ForEach(p => Console.Write(p+",")); Console.WriteLine();
+            lol_char.ForEach(p => Console.Write(p + ",")); Console.WriteLine();
+            lol_int.Sort();
+            lol_char.Sort();
+            lol_int.ForEach(p => Console.Write(p + ",")); Console.WriteLine();
+            lol_char.ForEach(p => Console.Write(p + ",")); Console.WriteLine();
+
 
             //foreach (char i in b)
             //{
